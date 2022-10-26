@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  #table {
+      width: 900px;
+      max-width: calc(100% - 20px);
+      border: 15px solid rgb(161, 98, 31);
+      border-radius: 20px;
+      background: rgb(53, 176, 22);
+      margin: 0 auto;
+      color: white;
+      padding: 30px;
+  }
+  
+  #dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+  }
+  
+  #your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+  }
+  
+  button {
+    margin: 10px;
+      font-size: 25px;
+      border: 0;
+      padding: 10px 16px;
+      border-radius: 10px;
+      color: rgb(250, 250, 250);
+      background: rgb(203, 40, 40);
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: rgb(241, 120, 122);
+    box-shadow: 0px 0px 10px 5px rgba(35, 133, 199, 0.55);
+  }
+  
+  #results {
+    font-size: 30px;
+    color: white;
+  }
